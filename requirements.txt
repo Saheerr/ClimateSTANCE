@@ -1,0 +1,14 @@
+# Core data tools
+pandas
+openpyxl
+
+# For scraping (will need later)
+requests
+beautifulsoup4
+
+# For Twitter scraping (lightweight, no API key needed)
+snscrape
+
+# For text analysis / ML (when you move past keyword rules)
+scikit-learn
+nltk
