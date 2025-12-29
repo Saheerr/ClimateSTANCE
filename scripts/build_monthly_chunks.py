@@ -1,6 +1,10 @@
 import csv
+import sys
 import re
 from pathlib import Path
+
+csv.field_size_limit(10_000_000)
+
 
 IN_PATH = Path("outputs/monthly_website_text_2017_2023.csv")
 OUT_PATH = Path("outputs/monthly_text_chunks_2017_2023.csv")
