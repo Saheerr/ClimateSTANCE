@@ -1,4 +1,4 @@
-﻿import csv
+import csv
 import re
 from pathlib import Path
 
@@ -25,6 +25,7 @@ def chunk_text(text: str):
     paras = [norm(p) for p in PARA_SPLIT_RE.split(text)]
     paras = [p for p in paras if len(p) >= MIN_CHARS]
 
+   
     if not paras:
         clean = norm(text)
         out = []
@@ -37,6 +38,7 @@ def chunk_text(text: str):
             i = j
         return out
 
+   
     out = []
     for p in paras:
         if len(p) <= MAX_CHARS:
