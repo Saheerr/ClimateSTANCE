@@ -1,0 +1,19 @@
+Merged labeled rows (after exact dedup):
+475
+Duplicates removed: 58
+
+Counts (merged, includes UNKNOWN):
+stance_label
+UNKNOWN    184
+PRO        135
+NEUTRAL    117
+ANTI        39
+
+Counts (training set, excludes UNKNOWN):
+stance_label
+PRO        135
+NEUTRAL    117
+ANTI        39
+
+Unique ANTI texts in training:
+39

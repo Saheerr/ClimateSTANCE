@@ -1,0 +1,7 @@
+AUDIT SUMMARY
+total_chunks=48970
+archive_chunks=40825
+live_chunks=8145
+missing_provenance=0
+
+Clean output contains only provenance_chosen == archive.
